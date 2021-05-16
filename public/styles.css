@@ -1,0 +1,209 @@
+body{
+    font-weight: 500;
+    margin-top: 4rem;
+    background-color: #09192F;
+    color: #8892B0;
+    font-family: 'Poppins', sans-serif;
+}
+table.bio{
+    width: 100%;
+    color: #CCD6F6;
+}
+.container{
+    padding: 0 5%;
+}
+::selection{
+    background:#233554;
+    color: #BCC6E6;
+}
+.btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited{
+    color:#5AF2D9;
+    border-color: #5AF2D9;
+    
+}
+.btn-outline-primary:hover{
+    background-color: #133040;
+}
+a.left
+{
+    position: relative;
+}
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5AF2D9;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+.tumblr{
+    margin: 10% 0;
+}
+
+/* Navigation Bar */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1% ;
+    backdrop-filter: blur(50px);
+    z-index: 1;
+}
+
+.nav-title, a, a:hover {
+    color: #5AF2D9;
+    text-decoration: none;
+}
+
+
+/* Home */
+
+
+.welcome-greet{
+    margin-top: 3rem;
+    color: #5AF2D9;
+    margin-bottom: 3%;
+;}
+.fName, .lName{
+    font-size: 4rem;
+    letter-spacing: 0px;
+    color: #CCD6F6;
+    display: inline;
+}
+.fName {
+    font-weight: 100;
+}
+#typewriter {
+    font-size: 2rem;
+    font-weight: 100;
+    color:#8892B0;
+}
+.intro{
+    margin-top: 5%;
+    width:70%;
+}
+.contact1{
+    margin-top: 7%;
+}
+.social-icon{
+    font-size: 2.2rem;
+    margin-right: 4%;
+    color:#8892B0; 
+}
+.social-icon:hover{
+    color:#5AF2D9;
+}
+.social-icons-group{
+    margin-top: 5%;
+}
+
+
+/* About */
+
+img{
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+}
+.heading-box{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.heading{
+    color:#CCD6F6;
+}
+.sub-heading{
+    color:#5AF2D9;
+}
+
+/* Experience */
+
+.workplace{
+    padding: 4%;
+    width: 60%;
+    color:#CCD6F6; 
+    border-left: solid #8892B0 2px;
+    position: relative;
+    left: 30%;
+    
+}
+.workplace:hover{
+    color:#5AF2D9;
+    background-color: #233554;
+    
+}
+ul{
+    list-style: none; /* Remove default bullets */
+  }
+li.summary::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:#5AF2D9; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+}
+.box{
+    border: dashed #5AF2D9 2px;
+    padding: 2%;
+}
+
+/* Projects */
+.card{
+    background-color: #112240;
+    border: dashed #112240 2px;
+    margin: 5% 0;
+    min-height: 90%;
+}
+.card:hover{
+    border: dashed #5AF2D9 2px;
+}
+.external-link{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.external-link a{
+    color: #CCD6F6;
+}
+.external-link a:hover{
+    color:#5AF2D9;
+}
+table.skill-used{
+    width: 100%;
+}
+
+/* Tools of Trade */
+.tools{
+    text-align: center;
+    
+}
+.tool {
+    font-size: 4rem;
+    color: #CCD6F6;
+    margin : 1%;
+}
+.tool:hover {
+    color:#5AF2D9;
+}
+.tool-box{
+    margin : 1%;
+}
+#contact{
+    text-align: center;
+}
+.contact-btn{
+    margin-top: 10%;
+}
+#footer{
+    text-align: center;
+    margin-bottom: 2%;
+}

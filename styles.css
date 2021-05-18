@@ -109,9 +109,9 @@ a.left:hover:before {
 /* About */
 
 img{
-    height: 80%;
+    /* height: 80%; */
     width: 80%;
-    margin: 5%;
+    margin: 10%;
 }
 .heading-box{
     text-align: center;
